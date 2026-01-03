@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(images/WhatsApp\ Image\ 2026-01-03\ at\ 7.23.23\ AM.jpeg);
+    background-position:center;
+    background-size: cover;
+    padding: 10px 10%;
+    overflow: hidden;
+    background-color: yellow;
+
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo{
+    width: 140px;
+    
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px ;
+    background-color: rgb(247, 231, 94);
+    border: double black;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+
+}
+#category-select {
+    background: rgb(255, 239, 96);
+    width: 90%;
+    max-width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+   border: double black;
+}
+
+    select {
+      width: 100%;
+      padding: 10px ;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px dotted black ;
+      margin-right: 200px;
+    }
+    button {
+    background: rgb(4, 2, 5);
+    color: papayawhip;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border: double black;
+    margin-top: 80px;
+}
+
+    button:hover {
+      background-color: #ff4c3b;
+    }
+
+#jokeText { 
+
+    font-size: 16px;
+    color: rgb(255, 0, 85);
+    justify-content: center;
+}
+.selectall{
+   
+    margin-top: 40px;
+    
+}
+a{
+    margin-left: 20px;
+  
+}
+
+.img{
+    size: -10px;
+}

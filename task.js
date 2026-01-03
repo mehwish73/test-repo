@@ -8,7 +8,7 @@ const jokeDiv = document.getElementById('joke');
           jokeDiv.textContent = data.value;
         })
         .catch(error => {
-          jokeDiv.textContent = 'wrong ....someting';
+          jokeDiv.textContent = 'Oops! Something went wrong.';
           console.error(error);
         });
     });
